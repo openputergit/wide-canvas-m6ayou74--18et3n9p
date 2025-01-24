@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Assistance Services</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .whatsapp-slider {
+            position: fixed;
+            right: -100px;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: all 0.3s ease;
+            z-index: 1000;
+        }
+        .whatsapp-slider:hover {
+            right: 0;
+        }
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <img src="https://firebasestorage.googleapis.com/v0/b/widecanvas-d0dd4.appspot.com/o/logos%2FIMG-20250115-WA0001.jpg?alt=media&token=be28f97b-c3a2-4724-abbd-fdf347d3b267" alt="Logo" class="h-12">
+                <div class="hidden md:flex space-x-8">
+                    <a href="#services" class="text-black hover:text-gray-600">Services</a>
+                    <a href="#universities" class="text-black hover:text-gray-600">Universities</a>
+                    <a href="#testimonials" class="text-black hover:text-gray-600">Testimonials</a>
+                    <a href="https://wa.me/918448714746" class="bg-black text-white px-6 py-2 rounded-full hover:bg-gray-800">Enquire Now</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="pt-32 pb-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl font-bold mb-6">Expert Academic Assistance for Global Students</h1>
+                <p class="text-lg mb-8">Get professional help with assignments, research papers, and academic projects</p>
+                <a href="https://wa.me/918448714746" class="bg-black text-white px-8 py-3 rounded-full text-lg hover:bg-gray-800">Get assistance now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="p-6 bg-white shadow-lg rounded-lg">
+                    <i class="bi bi-book text-3xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">Assignment Help</h3>
+                    <p>Professional assistance with all types of academic assignments</p>
+                </div>
+                <div class="p-6 bg-white shadow-lg rounded-lg">
+                    <i class="bi bi-file-text text-3xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">Research Papers</h3>
+                    <p>Expert guidance in research and paper writing</p>
+                </div>
+                <div class="p-6 bg-white shadow-lg rounded-lg">
+                    <i class="bi bi-pencil-square text-3xl mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">Thesis Support</h3>
+                    <p>Comprehensive thesis writing and editing support</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Universities Section -->
+    <section id="universities" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Trusted by Top Universities</h2>
+            <div class="max-w-2xl mx-auto space-y-6">
+                <div class="p-4 bg-white rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">University of Hertfordshire</h3>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">University of Bradford</h3>
+                </div>
+                <div class="p-4 bg-white rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold">University of Suffolk</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">What Our Clients Say</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="testimonial-card p-6 bg-white shadow-lg rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-xl">★★★★★</div>
+                    </div>
+                    <p class="mb-4">"Excellent service! They helped me achieve great results."</p>
+                    <p class="font-semibold">- Arshdeep</p>
+                </div>
+                <div class="testimonial-card p-6 bg-white shadow-lg rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-xl">★★★★★</div>
+                    </div>
+                    <p class="mb-4">"Very professional and timely support. Highly recommended!"</p>
+                    <p class="font-semibold">- Neeru</p>
+                </div>
+                <div class="testimonial-card p-6 bg-white shadow-lg rounded-lg">
+                    <div class="flex items-center mb-4">
+                        <div class="text-yellow-400 text-xl">★★★★★</div>
+                    </div>
+                    <p class="mb-4">"Outstanding quality and excellent communication."</p>
+                    <p class="font-semibold">- Sagar</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Slider -->
+    <div class="whatsapp-slider bg-green-500 text-white p-4 rounded-l-lg cursor-pointer">
+        <a href="https://wa.me/918448714746" class="flex items-center">
+            <i class="bi bi-whatsapp text-2xl mr-2"></i>
+            <span>Chat with us</span>
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contact Us</h3>
+                    <p>Email: beinwork1@gmail.com</p>
+                    <p>Phone: +918448714746</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#universities">Universities</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Connect With Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="https://wa.me/918448714746" class="text-2xl hover:text-gray-400"><i class="bi bi-whatsapp"></i></a>
+                        <a href="https://instagram.com" class="text-2xl hover:text-gray-400"><i class="bi bi-instagram"></i></a>
+                        <a href="mailto:beinwork1@gmail.com" class="text-2xl hover:text-gray-400"><i class="bi bi-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <p>&copy; 2024 Academic Assistance Services. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+<script>document.body.addEventListener('wheel', e => { if (!e.ctrlKey) return; e.preventDefault(); return }, { passive: false })</script>
+	</body>
+</html>
